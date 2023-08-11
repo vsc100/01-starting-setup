@@ -23,6 +23,18 @@ const DUMMY_EXPENSES = [
     amount: 450,
     date: new Date(2021, 5, 12),
   },
+  {
+    key: "e5",
+    title: "Car",
+    amount: 5000,
+    date: new Date(2022, 5, 12),
+  },
+  {
+    key: "e6",
+    title: "Flowers",
+    amount: 10,
+    date: new Date(2022, 5, 12),
+  },
 ];
 function App() {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
